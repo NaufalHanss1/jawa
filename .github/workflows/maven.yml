@@ -15,15 +15,6 @@ on:
   pull_request:
     branches: [ "main" ]
 
-permissions: # Tambahkan bagian permissions di sini
-    contents: write
-    issues: write
-    packages: write
-    pull-requests: write
-    repository-projects: write
-    security-events: write
-    statuses: write
-
 jobs:
   build:
 
